@@ -1,0 +1,5 @@
+plan_id,plan_name,price,billing_cycle
+1,Basic,10,monthly
+2,Pro,25,monthly
+3,Premium,50,monthly
+4,Annual,240,yearly
