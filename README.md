@@ -11,35 +11,7 @@ El objetivo es recorrer todo el flujo típico de trabajo de un analista de datos
 5. Análisis de revenue, churn, planes y comportamiento de usuarios
 
 
-## Estructura del proyecto
-
-subscription-analytics-project/
-│
-├── Sheets/
-│ ├── raw_data
-│ │ ├── raw_users
-│ │ ├── raw_plans
-│ │ ├── raw_subscriptions
-│ │ └── raw_payments
-│ │
-│ ├── clean_data
-│ │ ├── clean_users
-│ │ ├── clean_plans
-│ │ ├── clean_subscriptions
-│ │ └── clean_payments
-│ 
-│
-├── SQL/
-│ ├── 01_schema.sql
-│ ├── 02_inserts.sql
-│ └── 03_validations.sql
-│ ├── 04_revenue_analysis.sql
-│ ├── 05_plans_&_churns.sql
-│ ├── 06_window_functions.sql
-│ 
-└── README.md
-
-## Data (Google Sheets)
+## Google Sheets
 
 ### Raw Data
 Contiene los datos originales simulados, con:
@@ -89,7 +61,7 @@ Relaciones implementadas mediante **foreign keys**.
 - Revenue mensual
 
 
-## 🧠 Habilidades aplicadas
+## Habilidades aplicadas
 
 - Google Sheets (data cleaning, validaciones)
 - SQL (MySQL)
